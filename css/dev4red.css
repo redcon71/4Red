@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+.content .img1
+ {
+   padding: 10px;
+    margin: 10px;
+     float: right ;
+    /* width: 50%;*/
+    width: 350px;
+      }
+.content .img1 img
+  {
+  /*  max-width: 50%;*/
+    max-width: 400px;
+  }
+
+  .botoninfo {
+    padding: 4px;
+  background-color: white;
+  border-radius: 12px;
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+  transition-duration: 0.4s;
+}
+
+.botoninfo:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btnfloat1 {
+  padding: 4px;
+background-color: rgb(78, 209, 240);
+border-radius: 50%;
+color: white;
+border: 2px solid #4CAF50; /* Green */
+transition-duration: 0.4s;
+
+}
+
+.btnfloat1:hover {
+background-color: #4CAF50; /* Green */
+color: white;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+*{text-decoration:none; list-style:none; margin:0px; padding:0px; outline:none;}
+body{margin:0px; padding:0px; font-family: 'Open Sans', sans-serif;}
+
+section{
+  width:100%;
+  max-width:1200px;
+  margin:0px auto;
+  display:table;
+  /*  position:fixed;*/
+  position:relative;
+}
+
+
+h1{margin:0px auto; display:table; font-size:26px; padding:40px 0px; color:#002e5b; text-align:center;}
+h1 span{font-weight:500;}
+
+header{
+  width:100%;
+  display:table;
+  background-color:#ec150e;
+  margin-bottom:50px;
+  position:fixed;
+  z-index: 100;
+  box-shadow: 0 7px 5px -5px #333;
+    }
+
+#logo{float:left;font-size:20px; text-transform:uppercase; color:#e9f0f7; font-weight:600; padding:25px 0px;}
+#logo1{float:left; font-size:18px; text-transform:none; color:#e9f0f7; font-weight:600; padding:20px 0px;}
+nav{width:auto; float:right;}
+nav ul{display:table; float:right;}
+nav ul li{float:left;}/*cambia orden nav*/
+nav ul li:last-child{padding-right:0px;}
+nav ul li a{color:#e9f0f7; font-size:18px; padding: 18px 18px; display:inline-block; transition: all 0.5s ease 0s;}
+nav ul li a:hover{background-color:#ec9625; color:#fde428; transition: all 0.5s ease 0s;}
+nav ul li a:hover i{color:#fde428; transition: all 0.5s ease 0s;}
+nav ul li a i{padding-right:10px; color:#ec150e; transition: all 0.5s ease 0s;}
+
+navint{width:auto; float:left;}
+navint ul{display:block; float:left;}
+navint ul li{float:left;}
+navint ul li:last-child{padding-right:0px;}
+navint ul li a{color:#968c8a; font-size:18px; padding: 25px 25px; display:inline-block; transition: all 0.5s ease 0s;}
+navint ul li a:hover{background-color:#e9f0f7; color:#1a4783; border-radius: 50%; transition: all 0.5s ease 0s;}
+navint ul li a:hover i{color:#1a4783; transition: all 0.5s ease 0s;}
+navint ul li a i{padding-right:10px; color:#ec150e; transition: all 0.5s ease 0s;}
+
+
+.formtext1{
+  display: block;
+  margin-bottom:5px;
+  border-radius: 5px;
+  border: 1px solid #39c;
+  width: 350px;
+  padding: 15px;
+  margin-left: 25px;
+  }
+  .formtext1:hover{
+   color:#1717FF
+}
+/*
+.textopie {
+  float:left; font-size:18px; text-transform:none; color:#e9f0f7; font-weight:600; padding:0px auto;
+}*/
+
+  textarea:focus, input:focus, input[type]:focus {
+      border-color: rgb(255, 144, 0);
+      box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px rgba(255,144,0,0.6);
+      outline: 0 none;
+  }
+
+.toggle-menu ul{display:table; width:25px;}
+.toggle-menu ul li{width:100%; height:3px; background-color:#e9f0f7; margin-bottom:4px;}
+.toggle-menu ul li:last-child{margin-bottom:0px;}
+
+input[type=checkbox], label{display:none;}
+
+.content{display:table; margin-bottom:60px; width:900px;}
+.content h2{font-size:18px; font-weight:500; color:#002e5b; border-bottom:1px solid #fde428; display:table; padding-bottom:10px; margin-bottom:10px;}
+.content p{font-size:14px; line-height:22px; color:#7c7c7c; text-align:justify;}
+
+
+footer
+{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+  padding-bottom:50px;
+  width:100%;
+  background-color:#9B9B9B;
+
+}
+.social{margin-top:15px ; display:block;}
+.social li{float:right; padding: 2px 10px;}
+.social li a{color:#e9f0f7; transition: all 0.5s ease 0s;}
+.social li a:hover{color:#fde428; transition: all 0.5s ease 0s;}
+
+h2 {
+  font: 33px sans-serif;
+  margin-top: 30px;
+  text-align: center;
+}
+h2.linea {
+  position: relative;
+  z-index: 1;
+}
+h2.linea:before {
+  border-top: 2px solid #fff000;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 95%;
+  z-index: -1;
+}
+h2.linea span {
+
+  background: #fff;
+  padding: 0 15px;
+}
+
+@media only screen and (max-width: 1440px) {
+section{max-width:95%;}
+.textopie {
+  float:left; font-size:14px; text-transform:none; color:#e9f0f7; font-weight:600; padding:0px 5px;
+}
+}
+
+@media only screen and (max-width: 980px) {
+header{padding:20px 0px; position:fixed; z-index: 100;}
+#logo{padding:0px;}
+input[type=checkbox] {position: absolute; top: -9999px; left: -9999px; background:none;}
+input[type=checkbox]:fous{background:none;}
+label {float:right; padding:8px 0px; display:inline-block; cursor:pointer; }
+input[type=checkbox]:checked ~ nav {display:block;}
+
+nav{display:none; position:absolute; right:0px; top:53px; background-color:#002e5b; padding:0px; z-index:99;}
+nav ul{width:auto;}
+nav ul li{float:none; padding:0px; width:100%; display:table;}
+nav ul li a{color:#FFF; font-size:15px; padding:10px 20px; display:block; border-bottom: 1px solid rgba(225,225,225,0.1);}
+nav ul li a i{color:#fde428; padding-right:13px;}
+}
+
+
+
+@media only screen and (max-width: 980px) {
+.content{width:90%;}
+}
+
+@media only screen and (max-width: 568px) {
+h1{padding:25px 0px;}
+h1 span{display:block;}
+}
+
+@media only screen and (max-width: 480px) {
+section {max-width: 90%;}
+}
+
+@media only screen and (max-width: 360px) {
+h1{font-size:20px;}
+label{padding:5px 0px;}
+#logo{font-size: 20px;}
+nav{top:47px;}
+}
+
+@media only screen and (max-width: 320px) {
+h1 {padding: 20px 0px;}
+}
